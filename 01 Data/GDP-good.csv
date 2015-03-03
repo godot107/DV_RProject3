@@ -1,50 +1,103 @@
-Country,Ranking,GDP
-United States,1,16768100
-China,2,9240270
-Japan,3,4919563
-Germany,4,3730261
-France,5,2806428
-United Kingdom,6,2678455
-Brazil,7,2245673
-Italy,8,2149485
-Russian Federation,9,2096777
-India,10,1876797
-Canada,11,1826769
-Australia,12,1560372
-Spain,13,1393040
-"Korea, Rep.",14,1304554
-Mexico,15,1260915
-Indonesia,16,868346
-Netherlands,17,853539
-Turkey,18,822135
-Saudi Arabia,19,748450
-Switzerland,20,685434
-Argentina,21,609889
-Sweden,22,579680
-Poland,23,525866
-Belgium,24,524806
-Nigeria,25,521803
-Norway,26,512580
-"Venezuela, RB",27,438284
-Austria,28,428322
-United Arab Emirates,29,402340
-Thailand,30,387252
-Colombia,31,378415
-"Iran, Islamic Rep.",32,368904
-South Africa,33,350630
-Denmark,34,335878
-Malaysia,35,313159
-Singapore,36,297941
-Israel,37,290551
-Chile,38,277199
-"Hong Kong SAR, China",39,274013
-Philippines,40,272067
-"Egypt, Arab Rep.",41,271973
-Finland,42,267329
-Greece,43,242230
-Pakistan,44,232287
-Ireland,45,232077
-Kazakhstan,46,231876
-Iraq,47,229327
-Portugal,48,227324
-Algeria,49,210183
+,<<<<<<< Updated upstream,,,
+Continent,Country,Ranking,GDP,
+North America,United States,1,16768100,
+Asia,China,2,9240270,
+Asia,Japan,3,4919563,
+Europe,Germany,4,3730261,
+Europe,France,5,2806428,
+Europe,United Kingdom,6,2678455,
+South America,Brazil,7,2245673,
+Europe,Italy,8,2149485,
+Asia,Russian Federation,9,2096777,
+Asia,India,10,1876797,
+North America,Canada,11,1826769,
+Oceania,Australia,12,1560372,
+Europe,Spain,13,1393040,
+Asia,"Korea, Rep.",14,1304554,
+North America,Mexico,15,1260915,
+Asia,Indonesia,16,868346,
+Europe,Netherlands,17,853539,
+Asia,Turkey,18,822135,
+Asia,Saudi Arabia,19,748450,
+Europe,Switzerland,20,685434,
+South America,Argentina,21,609889,
+Europe,Sweden,22,579680,
+Europe,Poland,23,525866,
+Europe,Belgium,24,524806,
+Africa,Nigeria,25,521803,
+Europe,Norway,26,512580,
+South America,"Venezuela, RB",27,438284,
+Europe,Austria,28,428322,
+Asia,United Arab Emirates,29,402340,
+Asia,Thailand,30,387252,
+South America,Colombia,31,378415,
+Asia,"Iran, Islamic Rep.",32,368904,
+Africa,South Africa,33,350630,
+Europe,Denmark,34,335878,
+Asia,Malaysia,35,313159,
+Asia,Singapore,36,297941,
+Asia,Israel,37,290551,
+South America,Chile,38,277199,
+Asia,"Hong Kong SAR, China",39,274013,
+Asia,Philippines,40,272067,
+Africa,"Egypt, Arab Rep.",41,271973,
+Europe,Finland,42,267329,
+Europe,Greece,43,242230,
+Asia,Pakistan,44,232287,
+Europe,Ireland,45,232077,
+Asia,Kazakhstan,46,231876,
+Asia,Iraq,47,229327,
+Europe,Portugal,48,227324,
+Africa,Algeria,49,210183,
+,=======,,,
+,Continent,Country,Ranking,GDP
+,North America,United States,1,16768100
+,Asia,China,2,9240270
+,Asia,Japan,3,4919563
+,Europe,Germany,4,3730261
+,Europe,France,5,2806428
+,Europe,United Kingdom,6,2678455
+,South America,Brazil,7,2245673
+,Europe,Italy,8,2149485
+,Asia,Russian Federation,9,2096777
+,Asia,India,10,1876797
+,North America,Canada,11,1826769
+,Oceania,Australia,12,1560372
+,Europe,Spain,13,1393040
+,Asia,"Korea, Rep.",14,1304554
+,North America,Mexico,15,1260915
+,Asia,Indonesia,16,868346
+,Europe,Netherlands,17,853539
+,Asia,Turkey,18,822135
+,Asia,Saudi Arabia,19,748450
+,Europe,Switzerland,20,685434
+,South America,Argentina,21,609889
+,Europe,Sweden,22,579680
+,Europe,Poland,23,525866
+,Europe,Belgium,24,524806
+,Africa,Nigeria,25,521803
+,Europe,Norway,26,512580
+,South America,"Venezuela, RB",27,438284
+,Europe,Austria,28,428322
+,Asia,United Arab Emirates,29,402340
+,Asia,Thailand,30,387252
+,South America,Colombia,31,378415
+,Asia,"Iran, Islamic Rep.",32,368904
+,Africa,South Africa,33,350630
+,Europe,Denmark,34,335878
+,Asia,Malaysia,35,313159
+,Asia,Singapore,36,297941
+,Asia,Israel,37,290551
+,South America,Chile,38,277199
+,Asia,"Hong Kong SAR, China",39,274013
+,Asia,Philippines,40,272067
+,Africa,"Egypt, Arab Rep.",41,271973
+,Europe,Finland,42,267329
+,Europe,Greece,43,242230
+,Asia,Pakistan,44,232287
+,Europe,Ireland,45,232077
+,Asia,Kazakhstan,46,231876
+,Asia,Iraq,47,229327
+,Europe,Portugal,48,227324
+,Africa,Algeria,49,210183
+,>>>>>>> Stashed changes,,,
