@@ -38,8 +38,8 @@ inner_join(EXCHANGE20, GDP20, by = "COUNTRY")
 >>>>>>> 1212e9a271df0b04bfe7cef6fbd76e024cdd5689
 
 #outer attempt
-full_join(BIRTH, POP, by = "COUNTRY")
-left_join(BIRTH, POP, by = "REGION")
+full_join(BIRTH, POP, by = "COUNTRY") %>% tbl_df()
+# join climate and arable percentages?.
 
 #12 some interesting plots
 ggplot(joined, aes(x=EXCHANGEPERDOLLAR, y = GDP, color = RANKING)) + geom_point()
@@ -52,7 +52,7 @@ ggplot(joined, aes(x=EXCHANGEPERDOLLAR, y = GDP, color = RANKING)) + geom_point(
 #Exchange Rate of curreny 
 ggplot(joined, aes(x = GDP)) + geom_histogram(binwidth=100000) + labs(x="GDP of Countries ")
 
-#categorical # APPARENTLY not enough categorical variables
+#categorical # APPARENTLY not enough categorical variables; we only have one and that is region
 categoricals <- eval(parse(text=substring(getURL(URLencode('http://129.152.144.84:5001/rest/native/?query="select * from WORLD "'), httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521/PDB1.usuniversi01134.oraclecloud.internal',  USER='C##cs329e_wkm285', PASS='orcl_wkm285', MODE='native_mode', MODEL='model', returnFor = 'R', returnDimensions = 'True'), verbose = TRUE), 1, 2^31-1)))
 
 
