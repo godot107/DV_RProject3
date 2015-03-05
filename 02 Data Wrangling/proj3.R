@@ -58,8 +58,10 @@ g <- g + labs( x = "US Exchange rate") + ylim(c(0,10000000))
 
 ggplot(joined, aes(x=EXCHANGEPERDOLLAR, y = GDP, color = RANKING)) + geom_point() + ggtitle('US EXCHANGE RATE VS GDP')
 
-ggplot(full, aes(x=COUNTRY, y = BIRTHRATE, color = POPULATION)) + geom_point()
-full %>% group_by(REGION.x, BIRTHRATE) %>% summarise(mean_br=mean(BIRTHRATE)) %>% ggplot(aes(x = REGION.x, y=mean_br)) + geom_point() + ggtitle('BIRTHRATES OF PER REGION') + theme(legend.title=element_text(colour="chocolate",size=16,face="bold")) + theme(axis.test.x=element_text(angle=50, size = 20, vjust=.5))
+
+full %>% group_by(REGION.x, BIRTHRATE) %>% summarise(mean_br=mean(BIRTHRATE)) %>% ggplot(aes(x = REGION.x, y=mean_br)) + geom_point() 
+
+ggplot(full, aes(x=COUNTRY, y = BIRTHRATE, color = POPULATION)) + ggtitle('BIRTHRATES OF PER REGION') + theme(legend.title=element_text(colour="chocolate",size=16,face="bold"))+ geom_point() + theme(axis.test.x=element_text(angle=50, size = 20, vjust=.5))
 
 #13
 
