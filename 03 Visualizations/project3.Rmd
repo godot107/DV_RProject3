@@ -3,16 +3,22 @@ title: "Project 3 HTML"
 output: html_document
 ---
 
+We are curious if there's a relationship between the value of a country's currency compared to the US as a gold standard and the country's economy measured by GDP
+```{r}
+# Loads the datawrangling and visualizations with examples of inner join, outer join, and combining data sets
+source("../02 Data Wrangling/inner.R", echo = TRUE)
+```
+
 
 ```{r}
 #loads data frames along with the needed library functions and prints out
-source("../01 Data/dataframes.R", echo = TRUE)
+source("../01 Data/outer.R", echo = TRUE)
 ```
 
 
 ```{r}
 # Loads the datawrangling and visualizations with examples of inner join, outer join, and combining data sets
-source("../02 Data Wrangling/12.R", echo = TRUE)
+source("../02 Data Wrangling/outer.R", echo = TRUE)
 ```
 
 
