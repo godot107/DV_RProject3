@@ -1,0 +1,22 @@
+---
+title: "Project 3 HTML"
+output: html_document
+---
+
+
+```{r}
+#loads data frames along with the needed library functions and prints out
+source("../01 Data/dataframes.R", echo = TRUE)
+```
+
+
+```{r}
+# Loads the datawrangling and visualizations with examples of inner join, outer join, and combining data sets
+source("../02 Data Wrangling/12.R", echo = TRUE)
+```
+
+
+```{r}
+# externally call the PNG files for the histogram and the bar graph to display categorical variables
+source("../03 Visualizations/png.R", echo = TRUE)
+```
