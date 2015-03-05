@@ -28,6 +28,11 @@ ARABLE <- data.frame(fromJSON(getURL(URLencode('129.152.144.84:5001/rest/native/
 
 CLIMATE <- data.frame(fromJSON(getURL(URLencode('129.152.144.84:5001/rest/native/?query="select * from CLIMATE"'),httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521:ORCL', USER='C##cs329e_wkm285', PASS='orcl_wkm285',MODE='native_mode',MODEL='model',returnDimensions = 'False',returnFor = 'JSON'),verbose = TRUE)))
 
+FULLGDP <- data.frame(fromJSON(getURL(URLencode('129.152.144.84:5001/rest/native/?query="select * from FULLGDP"'),httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521:ORCL', USER='C##cs329e_lar2478', PASS='orcl_lar2478',MODE='native_mode',MODEL='model',returnDimensions = 'False',returnFor = 'JSON'),verbose = TRUE)))
+
+LIT <- data.frame(fromJSON(getURL(URLencode('129.152.144.84:5001/rest/native/?query="select * from LIT"'),httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521:ORCL', USER='C##cs329e_lar2478', PASS='orcl_lar2478',MODE='native_mode',MODEL='model',returnDimensions = 'False',returnFor = 'JSON'),verbose = TRUE)))
+
+
 
 
 colnames(GDP20) <- toupper(names(GDP20))
@@ -52,6 +57,10 @@ inner_join(EXCHANGE20, GDP20, by = "COUNTRY")
 full <- full_join(BIRTH, POP, by = "COUNTRY") %>% tbl_df()
 
 # join from combine data sets column
+left<- left_join(LIT, FULLGDP, by = "COUNTRY")
+
+left%>% select(COUNTRY,REGION, LITERACY, GDP) %>% ggplot(aes(x=LITERACY, y=GDP, color=REGION)) + geom_point()
+
 
 <<<<<<< HEAD
 
