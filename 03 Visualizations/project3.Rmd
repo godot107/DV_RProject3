@@ -9,20 +9,21 @@ We are curious if there's a relationship between the value of a country's curren
 source("../02 Data Wrangling/inner.R", echo = TRUE)
 ```
 
+After Joining birth rate with populations of countries, we attempted to group the countries into regions and then averaging the birth rate's of those regions to see if there is a relationship between birth rates. 
 
 ```{r}
 #loads data frames along with the needed library functions and prints out
-source("../01 Data/outer.R", echo = TRUE)
-```
-
-
-```{r}
-# Loads the datawrangling and visualizations with examples of inner join, outer join, and combining data sets
 source("../02 Data Wrangling/outer.R", echo = TRUE)
 ```
 
 
 ```{r}
+# Loads the datawrangling and visualizations with examples of inner join, outer join, and combining data sets
+source("../02 Data Wrangling/combine.R", echo = TRUE)
+```
+
+
+```{r}
 # externally call the PNG files for the histogram and the bar graph to display categorical variables
-source("../03 Visualizations/png.R", echo = TRUE)
+#source("../03 Visualizations/png.R", echo = TRUE)
 ```
