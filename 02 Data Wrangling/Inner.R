@@ -7,4 +7,4 @@ EXCHANGE20 <- data.frame(fromJSON(getURL(URLencode('129.152.144.84:5001/rest/nat
 joined <- inner_join(EXCHANGE20, GDP20, by = "COUNTRY")
 
 #Visualization of Inner Join
-ggplot(joined, aes(x=EXCHANGEPERDOLLAR, y = GDP, color = RANKING)) + geom_point() + scale_color_gradient(low="darkkhaki",high="darkgreen") + theme(plot.title = element_text(size=20, face = "bold" , vjust=2)) + theme(axis.text.x=element_text(angle=50, size=20, vjust=0.5)) + theme(legend.title = element_text(colour = black, size = 16, face = "bold")) scale_color_discrete(name = "Ranking") + theme(legend.key=element_rect(fill='pink'))
+ggplot(joined, aes(x=EXCHANGEPERDOLLAR, y = GDP, color = RANKING)) + geom_point() + scale_color_gradient(low="darkkhaki",high="darkgreen") + theme(plot.title = element_text(size=20, face = "bold" , vjust=2)) + theme(axis.text.x=element_text(angle=50, size=20, vjust=0.5))  
