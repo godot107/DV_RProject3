@@ -29,3 +29,5 @@ source("../02 Data Wrangling/combine.R", echo = TRUE)
 # externally call the PNG files for the histogram and the bar graph to display categorical variables
 #source("../03 Visualizations/png.R", echo = TRUE)
 ```
+
+![](./histogram.png)    
