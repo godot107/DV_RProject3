@@ -30,4 +30,4 @@ source("../02 Data Wrangling/combine.R", echo = TRUE)
 #source("../03 Visualizations/png.R", echo = TRUE)
 ```
 
-![](./histogram.png)    
+![](./histogram.png)      
