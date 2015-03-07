@@ -18,7 +18,7 @@ After Joining birth rate with populations of countries, we attempted to group th
 source("../02 Data Wrangling/outer.R", echo = TRUE)
 ```
  
-Combined literacy rates and a country's GDP to see if there's a correlation.   
+Combined literacy rates and a country's GDP to see if there's a correlation.     
 ```{r}
 # Loads the datawrangling and visualizations with examples of inner join, outer join, and combining data sets
 source("../02 Data Wrangling/combine.R", echo = TRUE)
