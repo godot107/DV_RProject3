@@ -11,14 +11,14 @@ We are curious if there's a relationship between the value of a country's curren
 source("../02 Data Wrangling/inner.R", echo = TRUE)
 ```
 
-After Joining birth rate with populations of countries, we attempted to group the countries into regions and then averaging the birth rate's of those regions to see if there is a relationship between birth rates. 
+After Joining birth rate with populations of countries, we attempted to group the countries into regions and then averaging the birth rate's of those regions to see if there is a relationship between birth rates.  
 
 ```{r}
 #loads data frames along with the needed library functions and prints out
 source("../02 Data Wrangling/outer.R", echo = TRUE)
 ```
-
-Combined literacy rates and a country's GDP to see if there's a correlation.
+ 
+Combined literacy rates and a country's GDP to see if there's a correlation. 
 ```{r}
 # Loads the datawrangling and visualizations with examples of inner join, outer join, and combining data sets
 source("../02 Data Wrangling/combine.R", echo = TRUE)
