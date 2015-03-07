@@ -16,7 +16,7 @@ head(LIT)
 #Combine join by country 
 left<- left_join(LIT, FULLGDP, by = "COUNTRY") 
 
-head(left)
+head(left) 
 
-left%>% select(COUNTRY,REGION, LITERACY, GDP) %>% ggplot(aes(x=LITERACY, y=GDP, color=REGION)) + geom_point() + ggtitle('Literacy vs. GDP') + theme(legend.title=element_text(colour="chocolate",size=16,face="bold")) 
+left%>% select(COUNTRY,REGION, LITERACY, GDP) %>% ggplot(aes(x=LITERACY, y=GDP, color=REGION)) + geom_point() + ggtitle('Literacy vs. GDP') + theme(legend.title=element_text(colour="chocolate",size=16,face="bold")) + ylim(c(0,10000))
  

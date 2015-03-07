@@ -17,7 +17,7 @@ head(EXCHANGE20)
 joined <- inner_join(EXCHANGE20, GDP20, by = "COUNTRY")
 
 head(joined)
-
+ 
 
 #Visualization of Inner Join
-ggplot(joined, aes(x=EXCHANGEPERDOLLAR, y = GDP, color = RANKING)) + geom_point() + scale_color_gradient(low="darkkhaki",high="darkgreen") + ggtitle('Exchange per Dollar vs. GDP')  + theme(plot.title = element_text(size=20, face = "bold" , vjust=2)) + theme(axis.text.x=element_text(angle=50, size=20, vjust=0.5)) 
+ggplot(joined, aes(x=EXCHANGEPERDOLLAR, y = GDP, color = RANKING)) + geom_point() + scale_color_gradient(low="darkkhaki",high="darkgreen") + ggtitle('Exchange per Dollar vs. GDP')  + theme(plot.title = element_text(size=20, face = "bold" , vjust=2)) + theme(axis.text.x=element_text(angle=50, size=20, vjust=0.5)) + ylim(c(0,10000)) 
